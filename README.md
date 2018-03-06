@@ -9,7 +9,7 @@ API<->Wrapper<->Model<-training Model
 - ml_api.py: The API implemented as WSGI
 ```
 
-# Setup (on Ubuntu)
+# Setup (on Ubuntu):
 The pathlib library is included in all versions of python >= 3.4. Therefore I recommend using the most up2date version of Python 3.
 In addition we want to use the packages Flask for our API and Scikit Learn for loading our trained model.
 
@@ -22,7 +22,7 @@ sudo pip install -U sklearn, flask
 ```
 git clone https://github.com/.../....git api_directory
 ```
-
+## Run:
 **WARNING!**
 * Debug mode should never be used in a production environment!
 * Flask Dev Server should never be used in a production environment!
