@@ -22,8 +22,8 @@ $ sudo pip install -U sklearn, flask
 ```
 $ git clone https://github.com/.../....git api_directory
 ```
-## Run:
-**WARNING!**
+# Run:
+## WARNING!
 * Debug mode should never be used in a production environment!
 * Flask Dev Server should never be used in a production environment!
 
