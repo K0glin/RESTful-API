@@ -4,6 +4,20 @@ Example how to use Flask to build an API for Machine Learning data requests
 Optimal architecture:
 API<->Wrapper<->Model<-training Model
 
+# Setup (on Ubuntu)
+The pathlib library is included in all versions of python >= 3.4. Therefore I recommend using the most up2date version of Python 3.
+In addition we want to use the packages Flask for our API and Scikit Learn for loading our trained model.
+
+## Install Python packages:
+```
+sudo pip install -U sklearn, flask
+```
+
+## Clone the repo:
+```
+git clone https://github.com/.../....git api_directory
+```
+
 **WARNING!**
 * Debug mode should never be used in a production environment!
 * Flask Dev Server should never be used in a production environment!
