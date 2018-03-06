@@ -1,8 +1,13 @@
 # RESTful-API with Flask
 Example how to use Flask to build an API for Machine Learning data requests
 
-Optimal architecture:
+## Optimal architecture:
 API<->Wrapper<->Model<-training Model
+
+# File
+```
+- ml_api.py: The API implemented as WSGI
+```
 
 # Setup (on Ubuntu)
 The pathlib library is included in all versions of python >= 3.4. Therefore I recommend using the most up2date version of Python 3.
@@ -27,3 +32,5 @@ Run Dev Server with:
 $ FLASK_APP=ml_api.py flask run
  * Running on http://localhost:5000/
 ```
+
+# Simple Example
