@@ -15,12 +15,12 @@ In addition we want to use the packages Flask for our API and Scikit Learn for l
 
 ## Install Python packages:
 ```
-sudo pip install -U sklearn, flask
+$ sudo pip install -U sklearn, flask
 ```
 
 ## Clone the repo or just download the file:
 ```
-git clone https://github.com/.../....git api_directory
+$ git clone https://github.com/.../....git api_directory
 ```
 ## Run:
 **WARNING!**
@@ -34,3 +34,5 @@ $ FLASK_APP=ml_api.py flask run
 ```
 
 # Simple Example
+
+
