@@ -20,6 +20,7 @@ $ sudo pip install -U sklearn, flask
 
 ## Clone the repo or just download the file:
 ```
+$ sudo apt-get install git
 $ git clone https://github.com/.../....git api_directory
 ```
 # Run
@@ -33,6 +34,12 @@ $ FLASK_APP=ml_api.py flask run
  * Running on http://localhost:5000/
 ```
 
-# Simple Example
+## Simple Example
+Now, one can use tools like wget, cURL, Python (Requests) or your web browser to communicate with the API.
+If they aren't already installed, use:
+```
+$ sudo apt-get install curl
+```
+
 
 
